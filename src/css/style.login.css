@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navholder .navbar {
+  height: 8.5vh;
+  position: absolute;
+  background-color: #34435E;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 10%;
+  justify-content: space-around;
+}
+
+.right .brand {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 80px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 10%;
+  justify-content: space-around;
+  margin-left: 75%;
+}
+
+.left .logbutton {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.formholder {
+  margin-top: 150px;
+  height: 500px;
+  width: 600px;
+  background-color: #52AD9C;
+  border-radius: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.formholder p {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.inputclass {
+  width: 80%;
+  height: 50px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  outline: none;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+}
+
+.loginbutton {
+  height: 50px;
+  width: 30%;
+  border-radius: 30px;
+  background-color: #34435E;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.loginbutton:hover {
+  background-color: #21365e;
+}

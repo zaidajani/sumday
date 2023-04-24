@@ -15,9 +15,8 @@ router.post('/', async (req, res) => {
 
   const newUser = new User({
     email: req.body.email,
-    firstName: req.body.firstName,
+    name: req.body.name,
     password: hashedpassword,
-    lastName: req.body.lastName
   });
 
   const realUser = await newUser.save();
